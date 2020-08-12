@@ -1,0 +1,33 @@
+.clients-list {
+    display: flex;
+    justify-content: center;
+}
+.clients-item a {
+    display : flex;
+    align-items : center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 170px;
+    height: 90px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-icon {
+    fill: var(--icons-colour);
+    width: 80px;
+    height: 42px;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-item + .clients-item {
+margin-left: 30px;
+}
+.clients-item a:hover{
+    color: var(--accent-colour);
+    border: 1px solid var(--accent-colour);
+}
+.clients-item a:hover .clients-icon {
+    fill: var(--accent-colour);
+}

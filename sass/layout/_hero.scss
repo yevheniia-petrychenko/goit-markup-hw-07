@@ -1,0 +1,25 @@
+.hero {
+    text-align: center;
+    background-color: var(--transparent-background);
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: 
+    linear-gradient( 
+    var(--transparent-background), var(--transparent-background)),
+    url(../images/header.jpg);
+    height: 600px;
+    max-width: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.hero .hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--background-colour);
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
